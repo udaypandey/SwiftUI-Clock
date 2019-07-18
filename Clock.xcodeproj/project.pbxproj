@@ -13,7 +13,6 @@
 		78BC5CD522E0E800002DA99A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BC5CD422E0E800002DA99A /* Preview Assets.xcassets */; };
 		78BC5CD822E0E800002DA99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BC5CD622E0E800002DA99A /* LaunchScreen.storyboard */; };
 		78BC5CE322E0E800002DA99A /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC5CE222E0E800002DA99A /* ClockTests.swift */; };
-		78BC5CF922E0E8C4002DA99A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC5CF522E0E8C4002DA99A /* ContentView.swift */; };
 		78BC5CFA22E0E8C4002DA99A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC5CF722E0E8C4002DA99A /* AppDelegate.swift */; };
 		78BC5CFB22E0E8C4002DA99A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC5CF822E0E8C4002DA99A /* SceneDelegate.swift */; };
 		78BC5CFD22E0E902002DA99A /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC5CFC22E0E902002DA99A /* WorldClockView.swift */; };
@@ -60,7 +59,6 @@
 		78BC5CDE22E0E800002DA99A /* ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BC5CE222E0E800002DA99A /* ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTests.swift; sourceTree = "<group>"; };
 		78BC5CE422E0E800002DA99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78BC5CF522E0E8C4002DA99A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78BC5CF722E0E8C4002DA99A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78BC5CF822E0E8C4002DA99A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		78BC5CFC22E0E902002DA99A /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
@@ -194,7 +192,6 @@
 				78BC5CF222E0E8C4002DA99A /* Bedtime */,
 				78BC5CF322E0E8C4002DA99A /* WorldClock */,
 				78BC5CF422E0E8C4002DA99A /* Alarm */,
-				78BC5CF522E0E8C4002DA99A /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -454,7 +451,6 @@
 				78BC5D0322E0E9BA002DA99A /* WorldClockAddRowView.swift in Sources */,
 				78D4A1F322E0F57C003A2C7D /* AppView.swift in Sources */,
 				78BC5D0522E0E9DD002DA99A /* AlarmView.swift in Sources */,
-				78BC5CF922E0E8C4002DA99A /* ContentView.swift in Sources */,
 				78BC5D2122E0ED77002DA99A /* BedtimeSleepAnalysisView.swift in Sources */,
 				78BC5D0722E0E9EC002DA99A /* AlarmRowView.swift in Sources */,
 				78BC5D1122E0EAAB002DA99A /* StopwatchAnalogDisplayView.swift in Sources */,
