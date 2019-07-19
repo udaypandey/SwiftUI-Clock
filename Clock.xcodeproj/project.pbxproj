@@ -35,6 +35,8 @@
 		78BC5D2122E0ED77002DA99A /* BedtimeSleepAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC5D2022E0ED77002DA99A /* BedtimeSleepAnalysisView.swift */; };
 		78BC5D2322E0EDA7002DA99A /* BedtimeDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC5D2222E0EDA7002DA99A /* BedtimeDialView.swift */; };
 		78D4A1F322E0F57C003A2C7D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4A1F222E0F57C003A2C7D /* AppView.swift */; };
+		78D5659122E2551800350151 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D5659022E2551800350151 /* Sample.swift */; };
+		78D5659322E2553800350151 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D5659222E2553800350151 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		78BC5D2022E0ED77002DA99A /* BedtimeSleepAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedtimeSleepAnalysisView.swift; sourceTree = "<group>"; };
 		78BC5D2222E0EDA7002DA99A /* BedtimeDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedtimeDialView.swift; sourceTree = "<group>"; };
 		78D4A1F222E0F57C003A2C7D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		78D5659022E2551800350151 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sample.swift; path = ../../../../../../../System/Volumes/Data/Users/uday/nextgen/Clock/Clock/Sources/Model/Sample.swift; sourceTree = "<group>"; };
+		78D5659222E2553800350151 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = City.swift; path = ../../../../../../../System/Volumes/Data/Users/uday/nextgen/Clock/Clock/Sources/Model/City.swift; sourceTree = "<group>"; };
 		8886F458A27F5222D571CE5D /* Pods-Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock.debug.xcconfig"; path = "Target Support Files/Pods-Clock/Pods-Clock.debug.xcconfig"; sourceTree = "<group>"; };
 		9693C0594265871406801DE7 /* Pods-ClockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClockTests.release.xcconfig"; path = "Target Support Files/Pods-ClockTests/Pods-ClockTests.release.xcconfig"; sourceTree = "<group>"; };
 		E93F1490CBC31DDC1AB851DD /* Pods_ClockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +183,8 @@
 		78BC5CEE22E0E8C4002DA99A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				78D5659022E2551800350151 /* Sample.swift */,
+				78D5659222E2553800350151 /* City.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -450,6 +456,7 @@
 				78BC5CFA22E0E8C4002DA99A /* AppDelegate.swift in Sources */,
 				78BC5D0322E0E9BA002DA99A /* WorldClockAddRowView.swift in Sources */,
 				78D4A1F322E0F57C003A2C7D /* AppView.swift in Sources */,
+				78D5659122E2551800350151 /* Sample.swift in Sources */,
 				78BC5D0522E0E9DD002DA99A /* AlarmView.swift in Sources */,
 				78BC5D2122E0ED77002DA99A /* BedtimeSleepAnalysisView.swift in Sources */,
 				78BC5D0722E0E9EC002DA99A /* AlarmRowView.swift in Sources */,
@@ -458,6 +465,7 @@
 				78BC5D0B22E0EA1E002DA99A /* StopwatchView.swift in Sources */,
 				78BC5CFD22E0E902002DA99A /* WorldClockView.swift in Sources */,
 				78BC5CFF22E0E91C002DA99A /* WorldClockRowView.swift in Sources */,
+				78D5659322E2553800350151 /* City.swift in Sources */,
 				78BC5D1D22E0ED40002DA99A /* BedtimeOptionsView.swift in Sources */,
 				78BC5CFB22E0E8C4002DA99A /* SceneDelegate.swift in Sources */,
 				78BC5D2322E0EDA7002DA99A /* BedtimeDialView.swift in Sources */,

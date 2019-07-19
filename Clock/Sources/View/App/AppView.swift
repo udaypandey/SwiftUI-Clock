@@ -11,8 +11,8 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         VStack {
-            WorldClockView()
-            AlarmView()
+            WorldClockView(cities: kCities)
+            AlarmView(alarms: kAlarms)
             BedtimeView()
             StopwatchView()
             TimerView()

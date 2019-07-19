@@ -9,15 +9,29 @@
 import SwiftUI
 
 struct WorldClockRowView: View {
+    let city: City
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack(alignment: .leading) {
+                Text(city.timeZone)
+
+                Text(city.name)
+                    .font(.headline)
+            }
+            Spacer()
+
+            Text(city.time)
+                .font(.largeTitle)
+        }
     }
 }
 
 #if DEBUG
 struct WorldClockRowView_Previews: PreviewProvider {
     static var previews: some View {
-        WorldClockRowView()
+        WorldClockRowView(city: kCities[0])
+            .background(Color.green)
     }
 }
 #endif

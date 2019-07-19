@@ -9,15 +9,27 @@
 import SwiftUI
 
 struct AlarmRowView: View {
+    let alarm: Alarm
+    @State var enabled: Bool = true
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        Toggle(isOn: $enabled) {
+            VStack(alignment: .leading) {
+                Text(alarm.time)
+                    .font(.largeTitle)
+
+                Text("Alarm")
+                    .font(.subheadline)
+            }
+        }
     }
 }
 
 #if DEBUG
 struct AlarmRowView_Previews: PreviewProvider {
     static var previews: some View {
-        AlarmRowView()
+        AlarmRowView(alarm: kAlarms[0])
+            .background(Color.green)
     }
 }
 #endif

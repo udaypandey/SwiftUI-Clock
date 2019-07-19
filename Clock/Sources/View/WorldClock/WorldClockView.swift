@@ -9,15 +9,22 @@
 import SwiftUI
 
 struct WorldClockView: View {
+    let cities: [City]
+
     var body: some View {
-        Text("World Clocks!!")
+        NavigationView {
+            List(cities) { city in
+                WorldClockRowView(city: city)
+            }
+            .navigationBarTitle("World Clock", displayMode: .inline)
+        }
     }
 }
 
 #if DEBUG
 struct WorldClockView_Previews: PreviewProvider {
     static var previews: some View {
-        WorldClockView()
+        WorldClockView(cities: kCities)
     }
 }
 #endif

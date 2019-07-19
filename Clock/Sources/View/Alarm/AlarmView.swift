@@ -9,15 +9,22 @@
 import SwiftUI
 
 struct AlarmView: View {
+    let alarms: [Alarm]
+
     var body: some View {
-        Text("Alarms!!")
+        NavigationView {
+            List(alarms) { alarm in
+                AlarmRowView(alarm: alarm)
+            }
+            .navigationBarTitle("Alarms", displayMode: .inline)
+        }
     }
 }
 
 #if DEBUG
 struct AlarmView_Previews: PreviewProvider {
     static var previews: some View {
-        AlarmView()
+        AlarmView(alarms: kAlarms)
     }
 }
 #endif
