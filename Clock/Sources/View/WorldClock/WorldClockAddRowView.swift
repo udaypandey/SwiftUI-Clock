@@ -9,15 +9,26 @@
 import SwiftUI
 
 struct WorldClockAddRowView: View {
+    let city: String
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(city)
+
+            Spacer()
+        }
     }
 }
 
 #if DEBUG
 struct WorldClockAddRowView_Previews: PreviewProvider {
     static var previews: some View {
-        WorldClockAddRowView()
+        Group {
+            WorldClockAddRowView(city: "London")
+            WorldClockAddRowView(city: "Tokyo")
+            WorldClockAddRowView(city: "Paris")
+        }
+        .previewLayout(.fixed(width: 300, height: 44))
     }
 }
 #endif

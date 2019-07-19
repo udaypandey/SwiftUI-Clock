@@ -10,14 +10,14 @@ import Foundation
 
 #if DEBUG
 let kCities: [City] = [
-    City(id: 1, timeZone: "Foo", name: "London", time: "20:59"),
-    City(id: 2, timeZone: "Foo", name: "New York", time: "01:29"),
-    City(id: 3, timeZone: "Foo", name: "Delhi", time: "12:59"),
-    City(id: 4, timeZone: "Foo", name: "Tokyo", time: "08:39"),
-    City(id: 5, timeZone: "Foo", name: "Budapest", time: "08:39"),
-    City(id: 6, timeZone: "Foo", name: "Prague", time: "08:39"),
-    City(id: 7, timeZone: "Foo", name: "Maidenhead", time: "08:39"),
-    City(id: 8, timeZone: "Foo", name: "Paris", time: "08:39")
+    City(id: 1, timeZone: "Today, +0HRS", name: "London", time: "20:59"),
+    City(id: 2, timeZone: "Today, -8HRS", name: "New York", time: "01:29"),
+    City(id: 3, timeZone: "Today, +0HRS", name: "Delhi", time: "12:59"),
+    City(id: 4, timeZone: "Today, +0HRS", name: "Tokyo", time: "08:39"),
+    City(id: 5, timeZone: "Today, +0HRS", name: "Budapest", time: "08:39"),
+    City(id: 6, timeZone: "Today, +0HRS", name: "Prague", time: "08:39"),
+    City(id: 7, timeZone: "Today, +0HRS", name: "Maidenhead", time: "08:39"),
+    City(id: 8, timeZone: "Today, +4:30", name: "Paris", time: "08:39")
 ]
 
 let kAlarms: [Alarm] = [

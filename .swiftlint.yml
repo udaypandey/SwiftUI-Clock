@@ -10,7 +10,7 @@ opt_in_rules:
   - anyobject_protocol
   - array_init
   - attributes
-  - closure_body_length
+#  - closure_body_length # Cant customize it and with swiftUI, the closures may be longer than usual
   - closure_end_indentation
   - closure_spacing
   - collection_alignment

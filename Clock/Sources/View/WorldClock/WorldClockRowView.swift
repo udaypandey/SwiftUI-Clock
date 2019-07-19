@@ -19,6 +19,7 @@ struct WorldClockRowView: View {
                 Text(city.name)
                     .font(.headline)
             }
+
             Spacer()
 
             Text(city.time)
@@ -30,8 +31,12 @@ struct WorldClockRowView: View {
 #if DEBUG
 struct WorldClockRowView_Previews: PreviewProvider {
     static var previews: some View {
-        WorldClockRowView(city: kCities[0])
-            .background(Color.green)
+        Group {
+            WorldClockRowView(city: kCities[0])
+            WorldClockRowView(city: kCities[1])
+            WorldClockRowView(city: kCities[2])
+        }
+        .previewLayout(.fixed(width: 300, height: 50))
     }
 }
 #endif
